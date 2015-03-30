@@ -483,3 +483,12 @@ footer .footer-below {
     display: none;
     opacity: 0;
 }
+
+.btn-default {
+    background-color: transparent;
+}
+
+.btn-default:hover {
+    background-color: white;
+    color: #18BC9C;
+}
