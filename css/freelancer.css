@@ -8,6 +8,22 @@ body {
     overflow-x: hidden;
 }
 
+.center {
+    text-align: center;
+    padding-bottom: 10%;
+    padding-top: 12%;
+}
+
+ul.description {
+    list-style: none;
+}
+
+.price {
+    text-align: center;
+    padding-top: 8%;
+    font-weight: bold;
+}
+
 p {
     font-size: 20px;
 }
@@ -192,8 +208,27 @@ section.success {
     section.first {
         padding-top: 75px;
     }
+
+    .resp-small {
+        font-size: 12px;
+    }
+
 }
 
+@media(max-width:560px) {
+   .description {
+        font-size: 10px;
+        margin-left: 2%;
+    }
+
+}
+    
+@media(max-width:560px) {
+   .description {
+        font-size: 10px;
+        margin-left: -1%;
+    }
+}
 #portfolio .portfolio-item {
     right: 0;
     margin: 0 0 15px;
