@@ -41,6 +41,11 @@ a.active {
     color: #18bc9c;
 }
 
+.not-active {
+   pointer-events: none;
+   cursor: default;
+}
+
 h1,
 h2,
 h3,
