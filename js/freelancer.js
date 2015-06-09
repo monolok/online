@@ -36,3 +36,49 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+// EMAIL FORM
+
+// jQuery(function($)  
+// {
+//     $("#contactForm").submit(function()
+//     {
+//         var email = $("#email").val(); // get email field value
+//         var name = $("#name").val(); // get name field value
+//         var msg = $("#message").val(); // get message field value
+//         var phone = $("#phone").val();
+//         $.ajax(
+//         {
+//             type: "POST",
+//             url: "https://mandrillapp.com/api/1.0/messages/send.json",
+//             data: {
+//                 'key': 'vr9Q2AfXxFXbJ8Io1ydKYw',
+//                 'message': {
+//                     'from_email': email,
+//                     'from_name': name,
+//                     'headers': {
+//                         'Reply-To': email
+//                     },
+//                     'subject': 'Monolok Web-form contact',
+//                     'text': msg,
+//                     'to': [
+//                     {
+//                         'email': 'antoinebe35@gmail.com',
+//                         'name': 'Monolok',
+//                         'type': 'to'
+//                     }]
+//                 }
+//             }
+//         })
+//         .done(function(response) {
+//             alert('Your message has been sent. Thank you!'); // show success message
+//             $("#name").val(''); // reset field after successful submission
+//             $("#email").val(''); // reset field after successful submission
+//             $("#message").val(''); // reset field after successful submission
+//             $("#phone").val('');
+//         })
+//         .fail(function(response) {
+//             alert('Error sending message.');
+//         });
+//         return false; // prevent page refresh
+//     });
+// });
