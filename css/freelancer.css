@@ -500,25 +500,29 @@ footer .footer-below {
 }
 
 #cart {
-    font-size: 12em;
+    font-size: 8em;
 }
 
 @media(max-width:1199px) {
     #cart {
-        font-size: 12em;
+        font-size: 8em;
     }
 }
 @media(max-width:991px) {
     #cart {
-        font-size: 10em;
+        font-size: 6em;
     }
 }
 @media(max-width:767px) {
     #cart {
-        font-size: 14em;
+        font-size: 8em;
         padding-top: 12%;
     }
 }
 .pad-top {
     padding-top: 5%;
+}
+
+table a:not(.btn), .table a:not(.btn) {
+    text-decoration: none;
 }
