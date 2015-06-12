@@ -100,7 +100,7 @@
                 </div>
             </div>
             <div class="bs-example row" data-example-id="hoverable-table">
-                <table class="table">
+                <table class="table" id="table_id">
                     <caption>Some of the projects...</caption>
                     <thead>
                         <tr>
@@ -111,52 +111,52 @@
                     </thead>
                     <tbody>
                         <tr>
-                            <td><a href="#" class="not-active">Galette Cafe</a></td>
+                            <td><a href="http://www.galette-cafe.fr/" target="_blank">Galette Cafe</a></td>
                             <td>Restaurant Web-site</td>
                             <td class="text-warning">Deployed</td>
                         </tr>
                         <tr>
-                            <td><a href="#" class="not-active">Smartcrave <small>app</small></a></td>
+                            <td><a href="http://smartcrave.herokuapp.com/" target="_blank">Smartcrave <small>app</small></a></td>
                             <td>Food Database Solution</td>
-                            <td class="text-warning">Ready to deploy</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#" class="not-active">Smartcrave <small>blog</small></a></td>
-                            <td>Food Blog</td>
-                            <td class="text-warning">Deployed</td>
-                        </tr>
-                        <tr>
-                            <td><a href="#" class="not-active">Restool</a></td>
-                            <td>HR Solution</td>
                             <td class="text-warning">Testing</td>
                         </tr>
                         <tr>
-                            <td><a href="#" class="not-active">MyPics</a></td>
+                            <td><a href="#table_id" onclick="notDeployed()">Smartcrave <small>blog</small></a></td>
+                            <td>Food Blog</td>
+                            <td class="text-warning">Planning</td>
+                        </tr>
+                        <tr>
+                            <td><a href="https://restool.herokuapp.com/" target="_blank">Restool</a></td>
+                            <td>HR Solutions</td>
+                            <td class="text-warning">Testing</td>
+                        </tr>
+                        <tr>
+                            <td><a href="#table_id" onclick="notDeployed()">MyPics</a></td>
                             <td>Photo E-com Solution</td>
-                            <td class="text-warning">Ready to deploy</td>
+                            <td class="text-warning">Planning</td>
                         </tr>
                          <tr>
-                            <td><a href="#" class="not-active">Farmer-Shop</a></td>
-                            <td>E-com for farmers'market</td>
-                            <td class="text-warning">Ready to deploy</td>
+                            <td><a href="#table_id" onclick="privateDeployed()" class="not_active">PayTheFarmer</a></td>
+                            <td>Payment solution at farmer's market</td>
+                            <td class="text-warning">Private project (Deployed)</td>
                         </tr>
                          <tr>
-                            <td><a href="#" class="not-active">Online payment</a></td>
+                            <td><a href="https://payment2monolok.herokuapp.com/" target="_blank">Online payment</a></td>
                             <td>Payment solution</td>
                             <td class="text-warning">Deployed</td>
                         </tr>
                         <tr>
-                            <td><a href="#" class="not-active">CoolTour</a></td>
+                            <td><a href="#table_id" onclick="notDeployed()">CoolTour</a></td>
                             <td>Travelling Locally</td>
                             <td class="text-warning">Planning</td>
                         </tr>
                         <tr>
-                            <td><a href="#" class="not-active">BuildYourWorld</a></td>
-                            <td>Social Project Network</td>
+                            <td><a href="http://www.staskstact.com/" target="_blank">StaskStact</a></td>
+                            <td>True information for everyone</td>
                             <td class="text-warning">Planning</td>
                         </tr>
                         <tr>
-                            <td><a href="#" class="not-active">MayaTour</a></td>
+                            <td><a href="#table_id" onclick="notDeployed()">MayaTour</a></td>
                             <td>E-commerce Platform</td>
                             <td class="text-warning">Planning</td>
                         </tr>                        
@@ -382,7 +382,7 @@
                         <div class="row control-group">
                             <div class="form-group col-xs-12 floating-label-form-group controls">
                                 <label>Email Address</label>
-                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address." type="text" name="mail" value="your email">
+                                <input type="email" class="form-control" placeholder="Email Address" id="email" required data-validation-required-message="Please enter your email address." type="text" name="mail">
                                 <p class="help-block text-danger"></p>
                             </div>
                         </div>

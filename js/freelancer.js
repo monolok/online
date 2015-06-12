@@ -36,6 +36,17 @@ $('.navbar-collapse ul li a').click(function() {
     $('.navbar-toggle:visible').click();
 });
 
+
+//notDeployed alert function
+function notDeployed() {
+    alert("Website not deployed yet")
+}
+//privateDeployed alert function
+function privateDeployed() {
+    alert("This project is not made publicly available as it is an internal web solution ")
+}
+
+
 // EMAIL FORM
 
 jQuery(function($)  
